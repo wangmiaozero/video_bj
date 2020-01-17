@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    element.style {
+      font-size: 93.7px;
+    }
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    html {
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .main-body {
+      position: relative;
+      margin: 0 auto;
+      height: 100%;
+      min-width: 1280px;
+      background: #cecece;
+      background-size: 100% auto;
+      overflow: hidden;
+    }
+
+    section {
+      display: block;
+    }
+
+    .video-bg {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*  导航 */
+    .side-nav[data-v-6736f04b] {
+      position: absolute;
+      z-index: 10;
+      right: .26rem;
+      top: 0;
+      margin-top: 3.12rem;
+    }
+
+    .side-nav .nav-head[data-v-6736f04b] {
+      position: relative;
+      z-index: 2;
+      width: 1.78rem;
+      height: .89rem;
+      background: url(./nav-head.png?8ee07d3c) no-repeat;
+      background-size: contain;
+    }
+
+    .side-nav .nav-head .nav-s[data-v-6736f04b] {
+      position: absolute;
+      z-index: 2;
+      top: 96%;
+      left: .18rem;
+      width: .28rem;
+      height: .54rem;
+      background: url(./download.png) no-repeat;
+      background-size: contain;
+    }
+
+    .side-nav .nav-body.short[data-v-6736f04b] {
+      height: 3.84rem;
+    }
+
+    .side-nav .nav-body[data-v-6736f04b] {
+      position: relative;
+      z-index: 1;
+      margin-top: -.1rem;
+      margin-left: .27rem;
+      padding-top: .14rem;
+      width: 1.66rem;
+      height: 4.21rem;
+      background: url(./nav-bg.png?24578c23) no-repeat;
+      background-position: center bottom;
+      background-size: 100% auto;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: .3s height;
+      transition: .3s height;
+      overflow: hidden;
+    }
+
+    .side-nav .nav-body .nav-item.item1[data-v-6736f04b] {
+      background-image: url(./download1.png);
+    }
+
+    .side-nav .nav-body .nav-item.item2[data-v-6736f04b] {
+      background-image: url(./download2.png);
+    }
+
+    .side-nav .nav-body .nav-item.item3[data-v-6736f04b] {
+      background-image: url(./download3.png);
+    }
+
+    .side-nav .nav-body .nav-item.item4[data-v-6736f04b] {
+      background-image: url(./download4.png);
+    }
+
+    .side-nav .nav-body .nav-item.item5[data-v-6736f04b] {
+      background-image: url(./download5.png);
+    }
+
+    .side-nav .nav-body .nav-item.item6[data-v-6736f04b] {
+      background-image: url(./download6.png);
+    }
+
+    .side-nav .nav-body .nav-item.item9[data-v-6736f04b] {
+      background-image: url(./download9.png);
+    }
+
+    .side-nav .nav-body .nav-item.item10[data-v-6736f04b] {
+      background-image: url(./download10.png);
+      border: none;
+    }
+
+    .side-nav .nav-body .nav-item[data-v-6736f04b] {
+      display: block;
+      margin: 0 14%;
+      width: .98rem;
+      height: .37rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-bottom: 1px solid #875843;
+      cursor: pointer;
+    }
+
+    .side-nav .nav-close[data-v-6736f04b] {
+      position: absolute;
+      z-index: 2;
+      bottom: .14rem;
+      left: .36rem;
+      width: .75rem;
+      height: .42rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="./rem.js"></script>
+  <section id="main" class="main-body">
+
+    <video id="video-bg" autoplay="autoplay" muted="muted" loop="loop" class="video-bg"
+      style="width: 1920px; height: 1000px;">
+      <source src="./video/f-bg.mp4?ccefcdca" type="video/mp4">
+      <source>
+      <source src="./video/f-bg.webm?b4cb16b7" type="video/webm">
+      <source>
+    </video>
+    <section data-v-6736f04b="" class="side-nav">
+      <div data-v-6736f04b="" class="nav-head">
+        <!---->
+        <div data-v-6736f04b="" class="nav-s"></div>
+      </div>
+      <div data-v-6736f04b="" class="nav-body short">
+        <div data-v-6736f04b="" class="nav-item item1"></div>
+        <div data-v-6736f04b="" class="nav-item item2"></div>
+        <div data-v-6736f04b="" class="nav-item item3"></div>
+        <div data-v-6736f04b="" class="nav-item item4"></div>
+        <div data-v-6736f04b="" class="nav-item item5"></div>
+        <div data-v-6736f04b="" class="nav-item item6"></div>
+        <!---->
+        <div data-v-6736f04b="" class="nav-item item9"></div>
+        <div data-v-6736f04b="" class="nav-item item10"></div>
+        <div data-v-6736f04b="" class="nav-close"></div>
+      </div>
+    </section>
+  </section>
+</body>
+
+</html>
